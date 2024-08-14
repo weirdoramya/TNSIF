@@ -5,16 +5,20 @@ public class Encapsulationdemo {
 	private static String Playername;
 	private static int Jersyno;
 	private static int Orderno;
-	//constructor
+	
+	//non-parameterized constructor
+	public Encapsulationdemo() {
+		
+		
+	}
+	
+	
+	//parameterized constructor
 	public Encapsulationdemo(String playername,int jersyno,int orderno) {
 		this.Playername=playername;
 		this.Jersyno=jersyno;
 		this.Orderno=orderno;
 	}
-	
-	
-
-
 
 	public String getPlayername() {
 		return Playername;
