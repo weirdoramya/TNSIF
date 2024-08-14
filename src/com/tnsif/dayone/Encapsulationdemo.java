@@ -50,7 +50,7 @@ public class Encapsulationdemo {
 
 	@Override//source->to string->click 
 	public String toString() {
-		return "Encapsulationdemo [playername=" + Playername + ", jersyno=" + Jersyno + ", orderno=" + Orderno + "]";
+		return "Encapsulationdemo playername=" + Playername + ", jersyno=" + Jersyno + ", orderno=" + Orderno  ;
 	}
 
 
