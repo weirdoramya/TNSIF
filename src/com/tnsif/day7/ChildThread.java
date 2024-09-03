@@ -1,7 +1,7 @@
 package com.tnsif.day7;
 
 //Thread class
-public class ChildThread extends ThreadDemo {
+public class ChildThread extends Thread {
 	private int n;
 	private String msg;
 

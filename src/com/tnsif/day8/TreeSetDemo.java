@@ -35,7 +35,7 @@ public class TreeSetDemo {
 		System.out.println("Courses are " + courses);
 		System.out.println("Course Subset is " + coursesSubSet);
 
-		// Adding User defined objects in TreeSet
+		// Adding User defined objects in TreeSet 
 		TreeSet<Student> students = new TreeSet<Student>();
 		students.add(new Student(101, "Harshita", 87));
 		students.add(new Student(104, "Pallavi", 71));
